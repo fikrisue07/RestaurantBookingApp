@@ -1,0 +1,38 @@
+# Ini adalah file .gitignore
+
+# Abaikan file konfigurasi yang mungkin berisi informasi sensitif
+config.js
+
+# Abaikan folder node_modules yang berisi dependensi Node.js
+node_modules/
+
+# Abaikan folder dan file yang dihasilkan oleh sistem operasi
+.DS_Store
+Thumbs.db
+
+# Abaikan folder dan file log
+logs/
+*.log
+
+# Abaikan direktori build atau dist yang berisi versi build dari aplikasi
+build/
+dist/
+
+# Abaikan file sementara yang mungkin dibuat oleh editor atau sistem
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Abaikan file database lokal yang mungkin berisi data sensitif
+*.db
+*.sql
+
+# Abaikan file dan folder yang dihasilkan oleh alat pengembangan
+/.idea/
+/.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Abaikan file khusus proyek lainnya
+.env
