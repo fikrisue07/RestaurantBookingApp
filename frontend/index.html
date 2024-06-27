@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Restaurant Booking</h1>
+    </header>
+    <main>
+        <h2>Make a Reservation</h2>
+        <form id="reservation-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="restaurant">Restaurant:</label>
+            <input type="text" id="restaurant" name="restaurant" required>
+            <label for="date">Date:</label>
+            <input type="datetime-local" id="date" name="date" required>
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" required>
+            <button type="submit">Submit</button>
+        </form>
+        <section id="reservations-list">
+            <h2>Reservations</h2>
+            <!-- Reservations will be listed here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Restaurant Booking</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
 
